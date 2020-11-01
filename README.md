@@ -1,4 +1,6 @@
 # installation
+- clone this reposity
+- cd to laravel-workspace folder
 - docker-compose up -d
 
 
