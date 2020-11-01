@@ -1,5 +1,3 @@
-# laravel-workspace
-
 # installation
 - docker-compose up -d
 
