@@ -11,5 +11,6 @@
 - you can remove public folder because just for testing folder
 
 # running in browser
-- localhost:8000/public/index.php
+- localhost:8000 (for testing)
+- localhost:8000/public/index.php (for laravel)
 
