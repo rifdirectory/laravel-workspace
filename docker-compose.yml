@@ -1,0 +1,17 @@
+version: "3"
+networks: 
+    laravel:            
+services: 
+    workspace:
+        container_name: workspace
+        build: .
+        volumes: 
+            - ./public:/var/www/html
+            # - ./apache:/etc/apache2/sites-enabled                      
+        working_dir: /var/www/html
+        tty: true
+        ports: 
+            - "8080:80"
+            - "3366:3306"
+        networks: 
+            - laravel
